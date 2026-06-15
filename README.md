@@ -1,44 +1,39 @@
-A  fully responsive  GitHub-inspired landing page built with pure HTML5, CSS3, and Bootstrap5 — no frameworks, no build tools, just clean frontend code.
+GitHub Clone Website
+This project is a responsive GitHub-inspired website built using HTML5, CSS3, and Bootstrap 5. The website recreates the modern design and layout of GitHub's landing page while focusing on clean user interface design and responsive web development.
+The project includes a sticky navigation bar, hero section, statistics section, service cards, and a footer. It is designed to work smoothly across desktop, tablet, and mobile devices.
 
- Features
- Feature  
-  Description 
-   Sticky Navbar - Fixed top navbar with dropdowns  
-   Mobile Menu - Offcanvas slide-in drawer for mobile 
-   Mobile Search - Slide-down search panel on mobile 
-   Hero Section - Gradient headline with CTA buttons 
-   Stats Section - Animated counters — 180M+ Developers etc. 
-   Service Cards - Responsive grid: 1 → 2 → 3 columns 
-   Footer - Multi-column links, social icons, language selector 
+Features
+Responsive design
+Sticky navigation bar
+Hero section with call-to-action buttons
+Statistics section
 
-  Tech Stack
-    HTML5 — Semantic structure
-    CSS3 — Custom styles, gradients, transitions
-    Bootstrap 5.3 — Grid, offcanvas, dropdowns
-    Font Awesome 6.5 — Icons throughout
-    CSS Flexbox — Navbar & footer alignment
-    CSS clamp() — Fluid responsive typography
+Service cards
+Footer with useful links
+Mobile-friendly layout
+Technologies Used
+HTML5
+CSS3
+Bootstrap 5
+Font Awesome
+Git & GitHub
+Learning Objectives
 
- Responsive Breakpoints
-| Breakpoint | Screen | Layout |
-|---|---|---|
-| `col-12` | Mobile < 576px | 1 column |
-| `col-sm-6` | ≥ 576px | 2 columns |
-| `col-md-3` | ≥ 768px | Tablet layout |
-| `col-lg-4` | ≥ 992px | 3 columns, full navbar |
+Through this project, I practiced:
+Responsive web design
+Bootstrap components and grid system
+Modern UI development
+HTML page structuring
+CSS styling and layouts
+Version control using Git and GitHub
+Project Structure
 
- Project Structure
- Git/
-├──  index.html      → Main HTML file
-└──  styles.css      → Custom CSS styles
-How to Run Locally
-Step 1: Clone the repo
-git clone https://github.com/your-malavikaprabhakaran/git
+Git/
+├── index.html
+└── style.css
 
-Step 2: Open in browser
-Open index.html in any browser 
-No installs. No dependencies. Just open and run! 
-Navbar → Hero → Stats → Service Cards → Footer
+Conclusion
+This project helped me strengthen my frontend development skills and improve my understanding of responsive website design. It serves as a practical demonstration of my ability to build modern and user-friendly web interfaces.
 
- Author  
- [GitHub Profile](https://github.com/malavikaprabhakaran)
+Author
+Malavika

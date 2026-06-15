@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  
+  <nav class="gh-navbar">
+    <div class="container-fluid px-3 px-lg-4">
+      <div class="d-flex align-items-center justify-content-between w-100 gap-3">
+
+        
+        <a class="gh-logo d-flex align-items-center gap-2 text-decoration-none flex-shrink-0" href="#">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo" />
+          <span class="d-none d-sm-inline">GitHub</span>
+        </a>
+
+        
+        <div class="gh-search d-none d-lg-block">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" placeholder="Search or jump to…" />
+        </div>
+
+      
+        <div class="gh-nav-links d-none d-lg-flex align-items-center gap-1">
+          <div class="gh-dropdown dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Platform</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Features</a></li>
+              <li><a class="dropdown-item" href="#">Security</a></li>
+              <li><a class="dropdown-item" href="#">Actions</a></li>
+            </ul>
+          </div>
+          <div class="gh-dropdown dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solutions</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Teams</a></li>
+              <li><a class="dropdown-item" href="#">Enterprises</a></li>
+              <li><a class="dropdown-item" href="#">Startups</a></li>
+            </ul>
+          </div>
+          <a href="#" class="nav-link">Resources</a>
+          <a href="#" class="nav-link">Open Source</a>
+          <a href="#" class="nav-link">Enterprise</a>
+          <a href="#" class="nav-link">Pricing</a>
+        </div>
+
+        
+        <div class="d-none d-lg-flex align-items-center gap-2 flex-shrink-0">
+          <a href="#" class="btn-gh-signin">Sign in</a>
+          <a href="#" class="btn-gh-signup">Sign up</a>
+        </div>
+
+        
+        <div class="d-flex d-lg-none align-items-center gap-2">
+          <button class="btn btn-sm text-secondary border-0 p-1"
+            data-bs-toggle="offcanvas" data-bs-target="#mobileSearch" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass fs-5"></i>
+          </button>
+          <button class="navbar-toggler" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="mobileSearch" style="height:auto; padding:20px;">
+    <div class="offcanvas-header pb-0">
+      <h6 class="text-white mb-0">Search GitHub</h6>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body pt-3">
+      <div class="input-group">
+        <span class="input-group-text bg-dark border-secondary text-secondary">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+        <input type="text" class="form-control bg-dark border-secondary text-white" placeholder="Search or jump to…" />
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileNav" style="width:280px;">
+    <div class="offcanvas-header">
+      <h6 class="text-white mb-0 d-flex align-items-center gap-2">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          alt="logo" style="width:24px; filter:invert(1);" /> GitHub
+      </h6>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column">
+      <nav class="d-flex flex-column">
+        <a href="#" class="nav-link">Platform</a>
+        <a href="#" class="nav-link">Solutions</a>
+        <a href="#" class="nav-link">Resources</a>
+        <a href="#" class="nav-link">Open Source</a>
+        <a href="#" class="nav-link">Enterprise</a>
+        <a href="#" class="nav-link">Pricing</a>
+      </nav>
+      <div class="mt-auto pt-4 d-flex flex-column gap-2">
+        <a href="#" class="btn btn-outline-secondary w-100">Sign in</a>
+        <a href="#" class="btn btn-success w-100 fw-semibold">Sign up</a>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <section class="gh-hero">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+          <h1>Let's build <span>from here</span></h1>
+          <p class="mt-3">The complete developer platform to build, scale, and deliver secure software.</p>
+          <div class="gh-hero-cta">
+            <a href="#" class="btn-hero-primary">Get started for free</a>
+            <a href="#" class="btn-hero-secondary">
+              <i class="fa-brands fa-github me-1"></i> Start with GitHub Enterprise
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="gh-stats">
+    <div class="container">
+      <div class="row g-0 text-center">
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-number">180M+</div>
+            <div class="stat-label">Developers</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-number">4M+</div>
+            <div class="stat-label">Organizations</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-number">420M+</div>
+            <div class="stat-label">Repositories</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-number">90%</div>
+            <div class="stat-label">Fortune 100</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="gh-services">
+    <div class="container">
+
+      <div class="row mb-5">
+        <div class="col-12 col-md-8 col-lg-6">
+          <p class="text-uppercase text-secondary fw-semibold" style="font-size:12px; letter-spacing:1px;">
+            Explore GitHub
+          </p>
+          <h2 class="section-title">Everything you need to ship great software</h2>
+          <p class="section-subtitle">Resources, tools, and stories from the GitHub community.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-rss"></i></div>
+            <h3 class="card-title">Blog</h3>
+            <p class="card-para">Stay updated with the latest GitHub news, product announcements, developer stories, and technical deep-dives from the team behind the platform.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-palette"></i></div>
+            <h3 class="card-title">Brand Assets</h3>
+            <p class="card-para">Access official GitHub logos, color guidelines, and usage policies to represent GitHub accurately across your projects and publications.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-people-group"></i></div>
+            <h3 class="card-title">Community Stories</h3>
+            <p class="card-para">Discover inspiring stories from developers around the world who are using GitHub to collaborate, learn, and create meaningful open-source projects.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-star"></i></div>
+            <h3 class="card-title">Customer Stories</h3>
+            <p class="card-para">See how leading companies across industries use GitHub to accelerate development cycles, improve collaboration, and deliver more reliable software.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-briefcase"></i></div>
+            <h3 class="card-title">Careers</h3>
+            <p class="card-para">Join the team that builds the platform millions of developers rely on every day. Explore open roles across engineering, design, product, and more.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-heart"></i></div>
+            <h3 class="card-title">Diversity, Inclusion & Belonging</h3>
+            <p class="card-para">Learn about GitHub's commitment to building an inclusive workplace and fostering a community where everyone belongs and can do their best work.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-circle-check"></i></div>
+            <h3 class="card-title">GitHub Status</h3>
+            <p class="card-para">Monitor real-time system health, view incident history, and subscribe to updates so you're always informed about the availability of GitHub services.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-user-tie"></i></div>
+            <h3 class="card-title">Leadership</h3>
+            <p class="card-para">Meet the leaders driving GitHub's mission to accelerate human progress through developer collaboration, innovation, and the power of open source.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-scale-balanced"></i></div>
+            <h3 class="card-title">Policy</h3>
+            <p class="card-para">Explore GitHub's policies on privacy, security, acceptable use, and platform integrity — built to keep the developer community safe and trusted.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="card-icon-wrap"><i class="fa-solid fa-newspaper"></i></div>
+            <h3 class="card-title">Press</h3>
+            <p class="card-para">Access the latest GitHub press releases, media kit, executive bios, and contact information for our communications team.</p>
+            <a href="#" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  
+  <footer class="gh-footer">
+    <div class="container">
+      <div class="row g-5">
+
+        <div class="col-12 col-lg-4">
+          <div class="footer-brand">
+            <h2><i class="fa-brands fa-github"></i> GitHub</h2>
+            <p class="mt-2 mb-1 fw-semibold" style="color:#c9d1d9;">Subscribe to our developer newsletter</p>
+            <p class="mb-3">Get tips, technical guides, and best practices. Twice a month.</p>
+            <button class="btn-subscribe">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-8">
+          <div class="row g-4">
+
+            <div class="col-6 col-md-3">
+              <div class="footer-col">
+                <h5>Octoverse</h5>
+                <a href="#">Features</a>
+                <a href="#">Enterprise</a>
+                <a href="#">Copilot</a>
+                <a href="#">AI</a>
+                <a href="#">Security</a>
+                <a href="#">Pricing</a>
+                <a href="#">Team</a>
+                <a href="#">Resources</a>
+                <a href="#">Roadmap</a>
+                <a href="#">Compare GitHub</a>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+              <div class="footer-col">
+                <h5>Ecosystem</h5>
+                <a href="#">Developers API</a>
+                <a href="#">Partners</a>
+                <a href="#">Education</a>
+                <a href="#">GitHub CLI</a>
+                <a href="#">GitHub Desktop</a>
+                <a href="#">GitHub Mobile</a>
+                <a href="#">GitHub Marketplace</a>
+                <a href="#">MCP Registry</a>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+              <div class="footer-col">
+                <h5>Support</h5>
+                <a href="#">Docs</a>
+                <a href="#">Community Forum</a>
+                <a href="#">Professional Services</a>
+                <a href="#">Premium Support</a>
+                <a href="#">Skills</a>
+                <a href="#">Status</a>
+                <a href="#">Contact GitHub</a>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3">\
+
+              <div class="footer-col">
+                <h5>Company</h5>
+                <a href="#">About</a>
+                <a href="#">Why GitHub</a>
+                <a href="#">Customer Stories</a>
+                <a href="#">Blog</a>
+                <a href="#">The ReadME Project</a>
+                <a href="#">Careers</a>
+                <a href="#">Newsroom</a>
+                <a href="#">Inclusion</a>
+                <a href="#">Social Impact</a>
+                <a href="#">Shop</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+
+        <div class="d-flex flex-wrap align-items-center gap-3">
+          <span class="text-secondary" style="font-size:12px;">© 2026 GitHub, Inc.</span>
+          <a href="#" style="color:#8b949e; font-size:12px;">Terms</a>
+          <a href="#" style="color:#8b949e; font-size:12px;">Privacy</a>
+          <a href="#" style="color:#8b949e; font-size:12px;">What is Git?</a>
+          <a href="#" style="color:#8b949e; font-size:12px;">Manage cookies</a>
+          <a href="#" style="color:#8b949e; font-size:12px;">Do not share my personal information</a>
+        </div>
+
+        <div class="d-flex align-items-center gap-4">
+          <div class="footer-socials">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="lang-selector">
+            <i class="fa-solid fa-globe"></i>
+            <span class="ms-1">English</span>
+            <i class="fa-solid fa-chevron-down ms-1" style="font-size:10px;"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

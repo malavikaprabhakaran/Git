@@ -1,8 +1,9 @@
-A  fully responsive  GitHub-inspired landing page built with pure HTML5, CSS3, and Bootstrap 5 — no frameworks, no build tools, just clean frontend code.
+A  fully responsive  GitHub-inspired landing page built with pure HTML5, CSS3, and Bootstrap5 — no frameworks, no build tools, just clean frontend code.
 
  Features
- Feature | Description 
-   Sticky Navbar | Fixed top navbar with dropdowns  
+ Feature  
+  Description 
+   Sticky Navbar - Fixed top navbar with dropdowns  
    Mobile Menu - Offcanvas slide-in drawer for mobile 
    Mobile Search - Slide-down search panel on mobile 
    Hero Section - Gradient headline with CTA buttons 
@@ -10,12 +11,12 @@ A  fully responsive  GitHub-inspired landing page built with pure HTML5, CSS3, a
    Service Cards - Responsive grid: 1 → 2 → 3 columns 
    Footer - Multi-column links, social icons, language selector 
 
- Tech Stack
+  Tech Stack
     HTML5 — Semantic structure
     CSS3 — Custom styles, gradients, transitions
-    Bootstrap 5.3— Grid, offcanvas, dropdowns
+    Bootstrap 5.3 — Grid, offcanvas, dropdowns
     Font Awesome 6.5 — Icons throughout
-    CSS Flexbox— Navbar & footer alignment
+    CSS Flexbox — Navbar & footer alignment
     CSS clamp() — Fluid responsive typography
 
  Responsive Breakpoints
@@ -27,21 +28,17 @@ A  fully responsive  GitHub-inspired landing page built with pure HTML5, CSS3, a
 | `col-lg-4` | ≥ 992px | 3 columns, full navbar |
 
  Project Structure
- my-website/
+ Git/
 ├──  index.html      → Main HTML file
 └──  styles.css      → Custom CSS styles
 How to Run Locally
 Step 1: Clone the repo
-git clone https://github.com/your-username/my-website.git
+git clone https://github.com/your-malavikaprabhakaran/git
 
 Step 2: Open in browser
 Open index.html in any browser 
 No installs. No dependencies. Just open and run! 
 Navbar → Hero → Stats → Service Cards → Footer
 
-
-
- Author
-
-Made with ❤️ by **Your Name**  
- [GitHub Profile](https://github.com/your-username)
+ Author  
+ [GitHub Profile](https://github.com/malavikaprabhakaran)
